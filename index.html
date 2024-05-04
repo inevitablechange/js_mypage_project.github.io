@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YH's Main Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+    <h3 id ="city-weather"></h3>
+    <h2 id="today-date"></h3>
+    <h3 id="today-time"></h3>
+    <form id="login-form">
+        <input
+        required
+        type="text"
+        maxlength="15"
+        size="35"
+        placeholder="Write your name and press Enter"
+        />
+    </form>
+    <h2 id="greeting" class="hidden"></h2>
+    <form id="todo-form">
+        <input 
+        required 
+        type="text"
+        maxlength="30"
+        size="35"
+        placeholder="Write your todo and press Enter"
+        />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/image.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+
+    </div>
+  </body>
+</html>
